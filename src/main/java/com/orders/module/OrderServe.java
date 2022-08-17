@@ -4,9 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.orders.misc.Payment;
-import com.orders.misc.TransactionRequest;
-import com.orders.misc.TransactionResponse;
+import com.orders.misc.*;
 
 @Service
 public class OrderServe 
